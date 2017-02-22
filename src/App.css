@@ -1,0 +1,36 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.breaking-bad-wrapper {
+  min-height: 700px;
+  overflow: hidden;
+  background:
+      linear-gradient(left, rgba(33,53,18,.3) 0%,rgba(38,88,19,.4) 30%,rgba(73,91,9,.3) 74%,rgba(24,43,4,.3) 100%),
+      #000;
+
+  background:
+      linear-gradient(to left, rgba(33,53,18,.3) 0%,rgba(38,88,19,.4) 30%,rgba(73,91,9,.3) 74%,rgba(24,43,4,.3) 100%),
+      #000;
+}
